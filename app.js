@@ -22,4 +22,6 @@ function clickHandler() {
         var translatedTxt = json.contents.translated;
         outputdiv.innerText = translatedTxt;
     })
-}
+    .catch(errorHandler)
+};
+
