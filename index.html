@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elmer Fudd Translator</title>
+    <style>
+        textarea {
+            width: 90%;
+            height: 10vh;
+            padding: 0.5rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
-<body>
-    <h1>Elmer Fudd UH UH UH</h1>
-    <textarea id="txt-i/p" placeholder="Write something in normal English and it will be translated to Elmer Fudd dialect"></textarea>
-    <button id="btn-translate">Go!</button>
 
-    <script src = "app.js" type = "text/javascript"></script>
+<body>
+    <h1 style="text-align: center;">Elmer Fudd UH UH UH</h1>
+    <p style="text-align: center;">This website only works 5 times in one day so please choose what you want to
+        translate carefully. Cheers!</p>
+    <textarea id="txt-i/p"
+        placeholder="Write something in normal English and it will be translated to Elmer Fudd dialect"></textarea>
+    <div class="translate-btn-container">
+        <div class = "centered-btn">
+            <button id="btn-translate">Go!</button>
+        </div>    
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
