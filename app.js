@@ -1,6 +1,6 @@
 var btnTranslate = document.querySelector("#btn-translate");
-var textInput = document.querySelector("txt-input");
-var outputdiv = document.querySelector("output");
+var textInput = document.querySelector("#txt-input");
+var outputdiv = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/fudd.json";
 
@@ -25,3 +25,4 @@ function clickHandler() {
     .catch(errorHandler)
 };
 
+btnTranslate.addEventListener("click", clickHandler)
