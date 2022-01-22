@@ -5,7 +5,8 @@
 }
 
 :root {
-    --primary-colour: #FCD34D;
+    --primary-colour: #785336;
+    --secondary-color: #a1795a;
 }
 
 body {
@@ -45,7 +46,7 @@ textarea {
 
 #tail {
     text-align: center;
-    background-color: var(--primary-colour);
+    background-color: var(--secondary-color);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     padding: 2rem;
@@ -60,8 +61,8 @@ div {
 
 #output-text {
     position: fixed;
-    bottom: 300px;
-    left: 630px;
+    bottom: 320px;
+    left: 600px;
 }
 
 #output {
