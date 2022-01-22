@@ -10,7 +10,7 @@ function getTranslationURL(text) {
 
 function errorHandler(error) {
     console.log("An error came up :/", error)
-    alert("It seems an unexpected error came up. Please try again after few moments later")
+    alert("It seems an unexpected error came up or you have gone past the translation limit. Please try again after few moments later")
 }
 
 function clickHandler() {

@@ -1,42 +1,99 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-colour: #FCD34D;
+}
+
+body {
+    font-family: 'Carter One', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 textarea {
-    width: 90%;
+    border: 1px solid black;
+    width: 50%;
     height: 10vh;
-    padding: 0.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    block-size: 4rem;
+    font-size: large;
+    font-style: italic;
+    font-weight: 50;
+    resize: none;
 }
 
-.translate-btn-container {
-    height: 50px;
-    position: relative;
-    padding: 0.5rem;
+#head {
+    text-align: center;
+    background-color: var(--primary-colour);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+}
+
+#tail {
+    text-align: center;
+    background-color: var(--primary-colour);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    margin-top: auto;
+}
+
+div {
+    font-size: large;
+    text-align: center;
+}
+
+
+#output-text {
+    position: fixed;
+    bottom: 300px;
+    left: 630px;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 1rem;
+    border-radius: 20px;
+    block-size: 4rem;
+    position: fixed;
+    bottom: 150px;
+    left: 355px;
+    
 }
 
 .centered-btn {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: medium
+    font
 }
 
 #btn-translate {
-    margin: 1px;
-    padding-left: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 1rem;
-    margin-bottom: 1vh;
+    position: absolute;
+    left: 680px;
+    top: 290px;
 }
 
-#output{
-    border: 1px solid black;
-    height: 10vh;
-    width: 90%;
-    padding: 0.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
